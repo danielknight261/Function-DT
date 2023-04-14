@@ -1,11 +1,11 @@
 const Footer = () => {
   return (
-    <div className="m-auto bg-gray-800">
-      <div className="divide-y">
-        <div className="flex p-14 text-white">
-          <div className="p-4">
-            <h1 className="text-lg py-2">Account</h1>
-            <ul className="text-sm text-gray-600">
+    <div className="m-auto bg-[#282B3A]">
+      <div className="divide-y divide-[#91939F]">
+        <div className="flex text-white">
+          <div className="p-4 pl-20">
+            <h1 className="text-lg py-2 pl-">Account</h1>
+            <ul className="text-sm text-[#91939F]">
               <li>Login</li>
               <li>Sign Up</li>
               <li>Redeem a Gift Card</li>
@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           <div className="p-4">
             <h1 className="text-lg py-2">Company</h1>
-            <ul className="text-sm text-gray-600">
+            <ul className="text-sm text-[#91939F]">
               <li>VIP Lounge Rewards</li>
               <li>Reviews</li>
               <li>Sustainability</li>
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
           <div className="p-4">
             <h1 className="text-lg py-2">Get Help</h1>
-            <ul className="text-sm text-gray-600">
+            <ul className="text-sm text-[#91939F]">
               <li>Contact Us</li>
               <li>FAQs</li>
               <li>Shipping Information</li>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         
        
-          <div className="flex items-center text-white justify-center p-8">
+          <div className="flex items-center text-white justify-center p-8 text-sm">
             <h1 className="pr-2">© Function 2023</h1>
             <h1 className="pl-2">Sitemap</h1>
           </div>
