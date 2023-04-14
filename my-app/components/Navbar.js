@@ -12,10 +12,11 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300 divide-y">
+    <div className="divide-y">  
+     {/* fixed left-0 top-0 w-full z-10 ease-in duration-300 */}
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 divide-x ">
-        <Link href="/" className=" hidden sm:flex ">
-          <Image  src="/logo.png" alt="/" width={100} height={100} />
+        <Link href="/" className=" hidden sm:flex  ">
+          <Image  src="/logo.png" alt="/" width={"100"} height={"100"} />
         </Link>
         <ul className="hidden sm:flex mr-20">
           <li className="p-4">
