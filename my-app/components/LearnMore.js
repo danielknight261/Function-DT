@@ -12,7 +12,6 @@ const LearnMore = () => {
   <div className="">Learn More </div>
   <div className=" "><AiOutlineRight size={18} /></div>
     
-    
   </button>
 </div>
 

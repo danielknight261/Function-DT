@@ -15,10 +15,10 @@ const Hero = () => {
         />
 
         {/* container */}
-        <div className=" flex absolute p-4 px-4 py-2 mx-auto text-center bg-gray-900 rounded-sm bottom-4 divide-x">
+        <div className=" flex absolute p-4 px-4 py-2 mx-auto text-center bg-[#282B3A] rounded-sm bottom-4 divide-x">
           <div className="pr-4">
-            <h5 className="flex text-xl lg:text-sm text-white">What's New</h5>
-            <h1 className="flex text-xl lg:text-3xl text-white">
+            <h5 className=" text-white">What's New</h5>
+            <h1 className=" text-white">
               The Winter Collection
             </h1>
           </div>

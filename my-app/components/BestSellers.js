@@ -13,6 +13,10 @@ const BestSellers = () => {
         </div>
       </div>
 
+      
+
+      
+
       {/* Products */}
       <div className="flex items-center justify-center mt-2">
         {/* media query which shows different amount of cards on different screen sizes */}
@@ -29,10 +33,10 @@ const BestSellers = () => {
             />
             <div className="flex justify-between">
               <div className="px-6 py-4">
-                <div className="mb-2 text-xl font-bold">Fredo Jacket</div>
-                <p className="text-base text-gray-700">£230</p>
+                <div className="mb-2 text-[#282B3A]">Fredo Jacket</div>
+                <p className="text-base text-[#6B6D7A]">£230</p>
               </div>
-              <div className="px-6 py-4">
+              <div className="px-6 py-4 text-[#282B3A]">
                 <AiOutlineHeart size={20} />
               </div>
             </div>
@@ -48,10 +52,10 @@ const BestSellers = () => {
             />
             <div className="flex justify-between">
               <div className="px-6 py-4">
-                <div className="mb-2 text-xl font-bold">Powell Jacket</div>
-                <p className="text-base text-gray-700">£350</p>
+                <div className="mb-2 text-[#282B3A]">Powell Jacket</div>
+                <p className="text-base text-[#6B6D7A]">£350</p>
               </div>
-              <div className="px-6 py-4">
+              <div className="px-6 py-4 text-[#282B3A]">
                 <AiOutlineHeart size={20} />
               </div>
             </div>
@@ -67,10 +71,10 @@ const BestSellers = () => {
             />
             <div className="flex justify-between">
               <div className="px-6 py-4">
-                <div className="mb-2 text-xl font-bold">Lazar Jacket in Denim</div>
-                <p className="text-base text-gray-700">£395</p>
+                <div className="mb-2 text-[#282B3A]">Lazar Jacket in Denim</div>
+                <p className="text-base text-[#6B6D7A]">£395</p>
               </div>
-              <div className="px-6 py-4">
+              <div className="px-6 py-4 text-[#282B3A]">
                 <AiOutlineHeart size={20} />
               </div>
             </div>
@@ -86,10 +90,10 @@ const BestSellers = () => {
             />
             <div className="flex justify-between">
               <div className="px-6 py-4">
-                <div className="mb-2 text-xl font-bold">Lazar Jacket in Black</div>
-                <p className="text-base text-gray-700">£395</p>
+                <div className="mb-2  text-[#282B3A]">Lazar Jacket in Black</div>
+                <p className="text-base text-[#6B6D7A]">£395</p>
               </div>
-              <div className="px-6 py-4">
+              <div className="px-6 py-4 text-[#282B3A]">
                 <AiOutlineHeart size={20} />
               </div>
             </div>

@@ -18,7 +18,7 @@ const Navbar = () => {
         <Link href="/" className=" hidden sm:flex  ">
           <Image  src="/logo.png" alt="/" width={"100"} height={"100"} />
         </Link>
-        <ul className="hidden sm:flex mr-20">
+        <ul className="hidden sm:flex mr-20 text-[#282B3A]">
           <li className="p-4">
             <Link href="/">What's New</Link>
           </li>
