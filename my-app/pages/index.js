@@ -21,6 +21,7 @@ export default function Home() {
       <BestSellers />
       <Featured />
       <LearnMore />
+      {/* Footer wrapped */}
 
      
       

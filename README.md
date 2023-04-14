@@ -19,6 +19,8 @@ Step 7: Learn More Component ✔️
 
 Step 8: Build Footer 
 
+Step 9: Wrap Footer
+
 Stack - Next, Tailwind, React-Icons
 
 
