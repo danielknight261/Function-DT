@@ -17,9 +17,11 @@ Step 6: Build Featured Component ✔️
 
 Step 7: Learn More Component ✔️
 
-Step 8: Build Footer 
+Step 8: Build Footer ✔️
 
-Step 9: Wrap Footer
+Step 9: Wrap Footer ✔️
+
+Step 10: Perfect MVP to match figma exactly
 
 Stack - Next, Tailwind, React-Icons
 
