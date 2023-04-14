@@ -11,7 +11,11 @@ Step 3.1: Wrap arouund _app.js  Nav component so appears on every page ✔️
 
 Step 4: Build Hero Section  Component ✔️
 
-Step 5: Build Footer 
+Step 5: Build Best Seller (hard coded) ✔️
+
+Step 6: Build Featured Component
+
+Step : Build Footer 
 
 Stack - Next, Tailwind, React-Icons
 

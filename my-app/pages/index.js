@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import Head from 'next/head'
-import Nav from '@/components/Navbar'
+
 import Hero from '@/components/Hero'
+import BestSellers from '@/components/BestSellers'
 
 
 export default function Home() {
@@ -13,7 +14,9 @@ export default function Home() {
       <link rel='icon' href='/favicon.ico' />
       </Head>
 
+      {/* Navbar wrapped */}
       <Hero />
+      <BestSellers />
 
      
       
