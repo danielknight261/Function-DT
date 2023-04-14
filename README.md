@@ -7,15 +7,17 @@ Step 2: Early Hosting Live Link Vercel  - https://function-dt.vercel.app/  ✔�
 
 Step 3: Build Nav component ✔️
 
-Step 3.1: Wrap arouund _app.js  Nav component so appears on every page ✔️
+Step 3.1: Wrap around _app.js  Nav component so appears on every page ✔️
 
 Step 4: Build Hero Section  Component ✔️
 
 Step 5: Build Best Seller (hard coded) ✔️
 
-Step 6: Build Featured Component
+Step 6: Build Featured Component ✔️
 
-Step : Build Footer 
+Step 7: Learn More Component ✔️
+
+Step 8: Build Footer 
 
 Stack - Next, Tailwind, React-Icons
 

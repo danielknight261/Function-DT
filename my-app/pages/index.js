@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Hero from '@/components/Hero'
 import BestSellers from '@/components/BestSellers'
 import Featured from '@/components/Featured'
+import LearnMore from '@/components/LearnMore'
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Hero />
       <BestSellers />
       <Featured />
+      <LearnMore />
 
      
       
