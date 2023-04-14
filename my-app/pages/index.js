@@ -3,6 +3,7 @@ import Head from 'next/head'
 
 import Hero from '@/components/Hero'
 import BestSellers from '@/components/BestSellers'
+import Featured from '@/components/Featured'
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       {/* Navbar wrapped */}
       <Hero />
       <BestSellers />
+      <Featured />
 
      
       

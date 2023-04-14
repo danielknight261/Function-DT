@@ -41,7 +41,7 @@ const BestSellers = () => {
           <div className="max-w-sm overflow-hidden rounded shadow-lg hover:shadow-gray-400 hover:cursor-pointer">
             <Image
               className="w-full"
-              src="/product-image-2"
+              src="/product-image-2.png"
               alt="/"
               height="450"
               width="600"
@@ -60,7 +60,7 @@ const BestSellers = () => {
           <div className="max-w-sm overflow-hidden rounded shadow-lg hover:shadow-gray-400 hover:cursor-pointer">
             <Image
               className="w-full"
-              src="/product-image-3"
+              src="/product-image-3.png"
               alt="/"
               height="450"
               width="600"
@@ -79,7 +79,7 @@ const BestSellers = () => {
 <div className="max-w-sm overflow-hidden rounded shadow-lg hover:shadow-gray-400 hover:cursor-pointer">
             <Image
               className="w-full"
-              src="/product-image-4"
+              src="/product-image-4.png"
               alt="/"
               height="450"
               width="600"
