@@ -12,12 +12,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300">
-      <div className="max-w-[1240px] m-aut flex justify-between items-center p-4">
-        <Link href="/" className="hidden sm:flex">
+    <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300 divide-y">
+      <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 divide-x ">
+        <Link href="/" className=" hidden sm:flex ">
           <Image  src="/logo.png" alt="/" width={100} height={100} />
         </Link>
-        <ul className="hidden sm:flex">
+        <ul className="hidden sm:flex mr-20">
           <li className="p-4">
             <Link href="/">What's New</Link>
           </li>
@@ -95,9 +95,12 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        
       </div>
-      
+
+      {/* Divide Line */}
+{/* <div className="divide-y divide-dashed">jyrrjr</div> */}
+
+      {/* Search Input */}
 <form className="flex items-center justify-center sm:block sm:hidden">
   <div className="relative w-fill">
     <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -106,7 +109,7 @@ const Navbar = () => {
     <input
       type="text"
       id=""
-      className="bg-gray-50 border border-gray-300 text-sm rounded-sm marker:w-full w-90 pl-20 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+      className="bg-gray-50 border border-gray-300 text-sm rounded-sm marker:w-full w-90 pl-20 p-2.5 m-3  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
       placeholder="Search for 'Cashmere'"
       required
     />
