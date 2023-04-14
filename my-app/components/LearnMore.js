@@ -2,18 +2,24 @@ import { AiOutlineRight } from "react-icons/ai";
 
 const LearnMore = () => {
   return (
-<div className="m-auto bg-green-950">
-    <div className="flex justify-center items-center ">
-  <div className="p-20 text-white">
-    <h1>Get your gifts in time for the holidays</h1>
-    <h5>Free, extended returns until January 20th</h5>
-    <div className="flex border rounded-sm divide-x">
-      <button className="">Shop All</button>
-      <AiOutlineRight size={18} />
+<div className="flex justify-center items-center bg-[#19291C]">
+  <div className="p-20 text-white text-center">
+    <h1 className="text-xl py-2">Get your gifts in time for the holidays</h1>
+    <h5 className="text-sm opacity-50 py-2">Free, extended returns until January 20th</h5>
+
+    <div className="flex justify-center rounded-sm ">
+  <button className=" flex items-center border border-[#91939F] py-2 px-2 pr-2">
+  <div className="">Learn More </div>
+  <div className=" "><AiOutlineRight size={18} /></div>
+    
+    
+  </button>
+</div>
+
     </div>
   </div>
-</div>
-</div>
+
+
 
 
     
