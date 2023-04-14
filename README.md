@@ -7,9 +7,13 @@ Step 2: Early Hosting Live Link Vercel  - https://function-dt.vercel.app/  âœ”ï¸
 
 Step 3: Build Nav component
 
+Step3.1: Wrap arouund _app.js  Nav component so appears on every page
+
 Step 4: Build Footer Component
 
 Step 5: Build Button Component ?
+
+Stack - Next, Tailwind, React-Icons
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
