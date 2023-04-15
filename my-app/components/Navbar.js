@@ -14,11 +14,13 @@ const Navbar = () => {
   return (
     <div className="divide-y">  
      {/* fixed left-0 top-0 w-full z-10 ease-in duration-300 */}
-      <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 divide-x ">
+      <div className="max-w-[1240px] m-auto flex justify-between items-center p-4  ">
+      
         <Link href="/" className=" hidden sm:flex  ">
-          <Image  src="/logo.png" alt="/" width={"100"} height={"100"} />
+          <Image  src="/logo.png" alt="/" width={"100"} height={"100"} className=" border-r-4"/>
         </Link>
-        <ul className="hidden sm:flex mr-20 text-[#282B3A]">
+        
+        <ul className="hidden sm:flex mr-20 text-[#282B3A] ">
           <li className="p-4">
             <Link href="/">What's New</Link>
           </li>

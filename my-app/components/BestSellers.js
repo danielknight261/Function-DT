@@ -6,9 +6,9 @@ const BestSellers = () => {
     <div>
       {/* Head section */}
       <div className="flex justify-between mx-4 py-4  ">
-        <h1>Best Sellers</h1>
+        <h1 className="pl-20">Best Sellers</h1>
         <div className="flex border rounded-sm divide-x">
-          <button className="">Shop All</button>
+          <button className="pr-20">Shop All</button>
           <AiOutlineRight size={18} />
         </div>
       </div>
