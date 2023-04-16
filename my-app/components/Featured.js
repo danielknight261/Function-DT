@@ -20,19 +20,22 @@ const Featured = () => {
             />
             <div className="flex justify-between">
               <div className="px-6 py-4">
-                <div className="mb-2 text-xl text-[#282B3A]">The Casual Edit</div>
+                <div className="mb-2 text-xl text-[#282B3A]">
+                  The Casual Edit
+                </div>
                 <p className="text-base text-[#808080]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna.
                 </p>
                 <div>
-                <div className="flex rounded-sm py-4">
-                    <button className=" flex items-center border border-[#91939F] py-2 px-2 pr-2">
-                      <div className="text-[#282B3A]">Shop All </div>
-                      <div>
-                        <AiOutlineRight size={18} />
-                      </div>
-                    </button>
+                  {/* button */}
+                  <div className="flex py-4">
+                    <a className="px-4 py-2 text-[#282B3A] border border-[#91939F] rounded-l-sm ">
+                      Shop All
+                    </a>
+                    <a className="px-2 py-2 text-[#282B3A] border border-[#91939F] rounded-r-sm ">
+                      <AiOutlineRight size={20} />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -49,20 +52,23 @@ const Featured = () => {
             />
             <div className="flex justify-between">
               <div className="px-6 py-4">
-                <div className="mb-2 text-xl text-[#282B3A]">The Denim Edit</div>
+                <div className="mb-2 text-xl text-[#282B3A]">
+                  The Denim Edit
+                </div>
                 <p className="text-base text-[#808080]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna.
                 </p>
 
                 <div>
-                  <div className="flex rounded-sm py-4">
-                    <button className=" flex items-center border border-[#91939F] py-2 px-2 pr-2">
-                      <div className="text-[#282B3A]">Shop All </div>
-                      <div>
-                        <AiOutlineRight size={18} />
-                      </div>
-                    </button>
+                  {/* button */}
+                  <div className="flex py-4">
+                    <a className="px-4 py-2 text-[#282B3A] border border-[#91939F] rounded-l-sm ">
+                      Shop All
+                    </a>
+                    <a className="px-2 py-2 text-[#282B3A] border border-[#91939F] rounded-r-sm ">
+                      <AiOutlineRight size={20} />
+                    </a>
                   </div>
                 </div>
               </div>

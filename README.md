@@ -1,17 +1,26 @@
-# Function-DT
-Function DT Front End E-Commerce 
+Function-DT
+View Project:
 
-Step 1: Setup environment Next and Tailwind installation  ✔️
+Live Hosting: https://function-dt.vercel.app/
 
-Step 2: Early Hosting Live Link Vercel  - https://function-dt.vercel.app/  ✔️
+Alternatively, CD into my-app and run npm run dev in the terminal for http://localhost:3000
+
+Notes: This was a really fun project to build using familiar technology. The responsiveness needs some adjustments, but overall it's close to the Figma design. Added some simple state to allow the burger menu to open and close. Overall, it wouldn't take much work to complete the project.
+
+Stack: Next.js, Tailwind, React-Icons
+
+Function DT Front End E-Commerce Steps
+Step 1: Set up environment Next.js and Tailwind installation ✔️
+
+Step 2: Early Hosting Live Link Vercel - https://function-dt.vercel.app/ ✔️
 
 Step 3: Build Nav component ✔️
 
-Step 3.1: Wrap around _app.js  Nav component so appears on every page ✔️
+Step 3.1: Wrap around _app.js Nav component so it appears on every page ✔️
 
-Step 4: Build Hero Section  Component ✔️
+Step 4: Build Hero Section Component ✔️
 
-Step 5: Build Best Seller (hard coded) ✔️
+Step 5: Build Best Seller (hard-coded) ✔️
 
 Step 6: Build Featured Component ✔️
 
@@ -21,46 +30,7 @@ Step 8: Build Footer ✔️
 
 Step 9: Wrap Footer ✔️
 
-Step 10: Perfect MVP to match figma exactly
-
-Stack - Next, Tailwind, React-Icons
-
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Bugs to fix: 
+- Responsiveness of logo when transitioning from large to small. 
+- Location of container with the hero image needs to be on the left when large and centered when small
+- Burger menu works in mobile mode, issue with locating of nav links on the page, fairly simple Tailwind fix.

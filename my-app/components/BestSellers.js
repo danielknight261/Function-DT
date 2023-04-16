@@ -3,26 +3,28 @@ import Image from "next/image";
 
 const BestSellers = () => {
   return (
-    <div>
+    <div className="">
       {/* Head section */}
-      <div className="flex justify-between mx-4 py-4  ">
-        <h1 className="pl-20">Best Sellers</h1>
-        <div className="flex border rounded-sm divide-x">
-          <button className="pr-20">Shop All</button>
-          <AiOutlineRight size={18} />
+      <div className="flex justify-between items-center mt-2 py-4">
+        <h1 className="pl-40  text-[#282B3A] ">Best Sellers</h1>
+        {/* button */}
+        <div className="flex pr-40">
+          <a className="px-4 py-2 text-[#282B3A] border border-[#91939F] rounded-l-sm ">
+            Shop All
+          </a>
+          <a className="px-2 py-2 text-[#282B3A] border border-[#91939F] rounded-r-sm ">
+            <AiOutlineRight size={20} />
+          </a>
         </div>
       </div>
 
-      
-
-      
-
       {/* Products */}
       <div className="flex items-center justify-center mt-2">
+      
         {/* media query which shows different amount of cards on different screen sizes */}
         <div className="grid gap-4 p-1 px-2 py-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
           {/* Hard Coded Best Sellers */}
- {/* PRODUCT 1 */}
+          {/* PRODUCT 1 */}
           <div className="max-w-sm overflow-hidden rounded shadow-lg hover:shadow-gray-400 hover:cursor-pointer">
             <Image
               className="w-full"
@@ -41,7 +43,7 @@ const BestSellers = () => {
               </div>
             </div>
           </div>
-{/* PRODUCT 2 */}
+          {/* PRODUCT 2 */}
           <div className="max-w-sm overflow-hidden rounded shadow-lg hover:shadow-gray-400 hover:cursor-pointer">
             <Image
               className="w-full"
@@ -60,7 +62,7 @@ const BestSellers = () => {
               </div>
             </div>
           </div>
-{/* PRODUCT 3 */}
+          {/* PRODUCT 3 */}
           <div className="max-w-sm overflow-hidden rounded shadow-lg hover:shadow-gray-400 hover:cursor-pointer">
             <Image
               className="w-full"
@@ -79,8 +81,8 @@ const BestSellers = () => {
               </div>
             </div>
           </div>
-{/* PRODUCT 4 */}
-<div className="max-w-sm overflow-hidden rounded shadow-lg hover:shadow-gray-400 hover:cursor-pointer">
+          {/* PRODUCT 4 */}
+          <div className="max-w-sm overflow-hidden rounded shadow-lg hover:shadow-gray-400 hover:cursor-pointer">
             <Image
               className="w-full"
               src="/product-image-4.png"
@@ -90,7 +92,9 @@ const BestSellers = () => {
             />
             <div className="flex justify-between">
               <div className="px-6 py-4">
-                <div className="mb-2  text-[#282B3A]">Lazar Jacket in Black</div>
+                <div className="mb-2  text-[#282B3A]">
+                  Lazar Jacket in Black
+                </div>
                 <p className="text-base text-[#6B6D7A]">£395</p>
               </div>
               <div className="px-6 py-4 text-[#282B3A]">
@@ -98,12 +102,8 @@ const BestSellers = () => {
               </div>
             </div>
           </div>
-
-          
         </div>
       </div>
-
-      
     </div>
   );
 };
